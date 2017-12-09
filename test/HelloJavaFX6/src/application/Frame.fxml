@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<Pane fx:id="parentPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FxmlSampleController">
+   <children>
+      <GridPane>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <AnchorPane fx:id="anchorPane" GridPane.rowIndex="1">
+      	      <children>
+      		      <fx:include fx:id="Controller1" source="Controller1.fxml" />
+      		      <fx:include fx:id="Controller2" source="Controller2.fxml" />
+      	      </children>
+            </AnchorPane>
+            <HBox>
+               <children>
+                  <Button fx:id="button1" mnemonicParsing="false" text="Button1" />
+                  <Label fx:id="label" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="button2" mnemonicParsing="false" text="Button2" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</Pane>

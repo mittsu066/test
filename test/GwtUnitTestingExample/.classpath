@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/mitsuru/Downloads/gwt-2.7.0/gwt-user.jar"/>
+	<classpathentry kind="lib" path="/Users/mitsuru/Downloads/gwt-2.7.0/gwt-dev.jar"/>
+	<classpathentry kind="lib" path="/Users/mitsuru/Downloads/gwt-2.7.0/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="/Users/mitsuru/Downloads/gwt-2.7.0/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry exported="true" kind="lib" path="/Applications/adt-bundle-mac-x86_64-20140702/eclipse/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FxmlSample.fxml&apos; to &apos;application.Main.java&apos;&#x0A;- Original project: &apos;TestJavaFX_Include&apos;&#x0A;- Destination element: &apos;application.Main.java&apos;&#x0A;- Original element: &apos;FxmlSample.fxml&apos;" description="Copy file" destination="/src&lt;application{Main.java" element1="src/application/FxmlSample.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1477406849323" units="0" version="1.0"/>
+</session>

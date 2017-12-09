@@ -1,0 +1,18 @@
+import java.io.*;
+public class Main{
+	static int value;
+	public static void main(String[] args){
+		int i = 5;
+		int j = 2;
+		System.out.println(i*j);
+		System.out.println(i*=j);
+		
+		int u = 1;
+		u = i*j;
+		System.out.println(u);
+		
+		int o = 1;
+		o = i*=j;
+		System.out.println(o);
+	}
+}

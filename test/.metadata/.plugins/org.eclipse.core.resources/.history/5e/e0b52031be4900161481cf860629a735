@@ -1,0 +1,20 @@
+
+class Test {
+	public static void main(String[] args){
+		int num = 3;
+		{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+			System.out.print("abc");
+			{int aaa;}
+			{int aaa;}
+			{int aaa;}
+			{int aaa;}
+			{String str;}
+			{String z = "つかもうぜ";
+			z.toString();}
+			{}{}{}{}{}{}{}{}{}
+			{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+			System.out.print("defg");
+			{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}
+		System.out.print("...");
+	}
+}

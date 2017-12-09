@@ -1,0 +1,9 @@
+
+class Test {
+	public static void main(String[] args){
+		double tax = 0.0;
+		int year = 2000;
+		tax = (year >= 2014)?0.08:(year>=1997)?0.05:(year>=1999)?0.00:0;
+		System.out.println(tax);
+	}
+}

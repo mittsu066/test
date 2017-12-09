@@ -1,0 +1,15 @@
+
+class Test {
+	public static void main(String[] args){
+//		int num0 = 0 , num1 = 1, num2 =1;
+//		while(num2 < 10){
+//			num0 = num1;
+//			num1 = num2;
+		
+		boolean flag = false;
+		while(!flag){
+			System.out.println('a');
+			flag = true;
+		}
+	}
+}

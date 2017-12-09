@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller2">
+   <children>
+      <Slider fx:id="slider" layoutX="77.0" layoutY="25.0" onDragDetected="#getOnTouchMoved" />
+      <Label fx:id="label" layoutX="217.0" layoutY="25.0" prefHeight="0.0" prefWidth="33.0" text="Label" />
+      <Circle fx:id="circle" fill="RED" layoutX="147.0" layoutY="145.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

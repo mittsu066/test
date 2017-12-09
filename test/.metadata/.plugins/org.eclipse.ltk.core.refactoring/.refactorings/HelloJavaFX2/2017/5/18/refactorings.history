@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;TestProject/src/application&apos;&#x0A;- Original project: &apos;HelloJavaFX2&apos;&#x0A;- Destination element: &apos;TestProject/src/application&apos;&#x0A;- Original elements:&#x0A;     application.HelloViewController.java&#x0A;     application.Main.java&#x0A;     FxmlSample.fxml" description="Copy elements" destination="=TestProject/src&lt;application" element1="src/application/FxmlSample.fxml" element2="/src&lt;application{HelloViewController.java" element3="/src&lt;application{Main.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493783107420" units="2" version="1.0"/>
+</session>

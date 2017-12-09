@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="75" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="366" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="/Users/mitsuru/Downloads/gwt-2.7.0" key="JavaClasspathTab.LAST_PATH_SETTING"/>
+	<item value="190" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<section name="conditionHistory">
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=GwtSampleApp/\/Users\/mitsuru\/Downloads\/gwt-2.7.0\/gwt-dev.jar&amp;lt;com.google.gwt.dev(RunWebApp.class[RunWebApp&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=GwtSampleApp/\/Users\/mitsuru\/Downloads\/gwt-2.7.0\/gwt-dev.jar&amp;lt;com.google.gwt.dev(GWTMain.class[GWTMain&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Testlambdas/src&amp;lt;{Main.java[Main&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Testlambdas/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_92.jdk\/Contents\/Home\/jre\/lib\/ext\/jfxrt.jar&amp;lt;com.sun.javafx.css.parser(Css2Bin.class[Css2Bin&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=TestTable/src&amp;lt;application{Main.java[Main&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=TestDB/src&amp;lt;{SqliteConnection.java[SqliteConnection&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Test_shinjirarenai/src&amp;lt;Comparable{TestComparable.java[TestComparable&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=TestDB/\/Users\/mitsuru\/Downloads\/sqlite-jdbc-3.7.2.jar&amp;lt;org.ibex.nestedvm(ClassFileCompiler.class[ClassFileCompiler&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="270" key="DIALOG_X_ORIGIN"/>
+			<item value="119" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
+		<item value="823" key="SashWeightTree"/>
+		<item value="176" key="SashWeightDetails"/>
+		<item value="600" key="WIDTH"/>
+		<item value="156" key="HEIGHT"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.RUNTIME_CLASSPATH_ADVANCED_DIALOG">
+		<item value="212" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="277" key="DIALOG_HEIGHT"/>
+		<item value="406" key="DIALOG_X_ORIGIN"/>
+		<item value="136" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

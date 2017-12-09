@@ -1,0 +1,16 @@
+
+class Test {
+	public static void main(String[] args){
+		String str = "Hello";
+		switch(str){
+		case "Hello":
+			System.out.println("Say Hello");
+		case "Good bye":
+			System.out.println("Say Good Bye");
+		case "Thanks":
+			System.out.println("Say Thanks");
+		default:
+			System.out.println("Say Default");
+		}
+	}
+}

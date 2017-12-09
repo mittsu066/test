@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="hbox" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label prefHeight="55.0" prefWidth="33.0" style="-fx-background-color: red;" />
+      <VBox>
+         <children>
+            <HBox>
+               <children>
+                  <Label prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: blue;" text="Label" />
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label prefHeight="27.0" prefWidth="33.0" style="-fx-background-color: blue;" text="Label" HBox.hgrow="ALWAYS" />
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</HBox>

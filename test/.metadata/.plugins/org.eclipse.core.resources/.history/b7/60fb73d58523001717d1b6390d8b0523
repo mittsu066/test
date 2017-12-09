@@ -1,0 +1,15 @@
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
+public class TestIterate {
+	public static void main(String[] args){
+		Predicate<? super String> f = s -> s.length() > 3;
+		Stream<String> stream1 = Stream.iterate("x", s -> s + s);
+		boolean a = stream1.noneMatch(f);
+		
+		Stream<String> stream2 = Stream.iterate("x", s -> s + s);
+		boolean b = stream2.noneMatch(f);
+		
+		System.out.println(a + " " + b);
+	}
+}

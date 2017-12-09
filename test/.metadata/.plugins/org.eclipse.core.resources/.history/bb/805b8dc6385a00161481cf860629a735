@@ -1,0 +1,8 @@
+class MyBuffer{
+	public static void main(String[] args){
+		StringBuilder sb = new StringBuilder("123456789");
+		//sb.delete(0, 2).delete(0, 1).replace(1, 1, "4");
+		sb.delete(0, 2).delete(0, 1);
+		System.out.println(sb);
+	}
+}

@@ -1,0 +1,55 @@
+
+public class Main{
+	public static void main(String[] args){
+		int val = 50;
+		if(val < 100){
+			System.out.print("a ");
+			if(val != 0)System.out.print("b ");
+			else System.out.print("c ");
+			if(val > 30)System.out.print("d ");
+			else if(val < 60)System.out.println("e ");
+			else if(val <= 20)System.out.println("f ");
+			else System.out.print("g ");
+		}else {
+			System.out.print("h ");
+		}
+		System.out.println("end");
+	}
+}
+
+
+
+/*
+import java.util.*;
+import java.util.function.*;
+public class Main{
+	public static void main(String[] args){
+		Customer c1 = new Customer("AAA", 500);
+		Customer c2 = new Customer("BBB", 300);
+		List<Customer> list = Arrays.asList(c1,c2);
+		//func(list,(Customer c) -> c.getPoint() < 500);
+		func(list,(Customer c) -> c.getPoint() < 600);
+	}
+	public static void func(List<Customer> list,Predicate<Customer> p){
+		for(Customer c : list){
+			if(p.test(c)){ //cの値と同じ場合にtrue
+				System.out.println(c.getName());
+			}
+		}
+	}
+}
+class Customer{
+	private String name;
+	private int point;
+	
+	public Customer(String name, int point){
+		this.name = name;
+		this.point =point;
+	}
+	public String getName(){
+		return this.name;
+	}
+	public int getPoint(){
+		return this.point;
+	}
+}*/

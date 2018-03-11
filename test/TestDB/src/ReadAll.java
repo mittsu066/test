@@ -6,6 +6,7 @@ import java.sql.Statement;
 
 //Test.sqliteの内容をすべて出力する
 public class ReadAll {
+	//git test
 	
 	public static void main(String[] args){
 		String query = "SELECT * FROM Test";
